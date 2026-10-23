@@ -2,28 +2,28 @@
 class Dockito < Formula
   desc "Publish and share docs and sheets with Dockito from the terminal"
   homepage "https://dockito.ai"
-  version "0.0.1-beta.18"
+  version "0.0.1-beta.19"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://dockito.ai/download/cli/0.0.1-beta.18/dockito-darwin-arm64.tar.gz"
-      sha256 "10de2ec924eb2c83f06d130c1fdeaa4adb8d8b9ced828cda75e3277aeada0fcf"
+      url "https://dockito.ai/download/cli/0.0.1-beta.19/dockito-darwin-arm64.tar.gz"
+      sha256 "4f916e31357182b558290a844079b249a871ddcde78d2567b22fe157ff9c1dab"
     end
     on_intel do
-      url "https://dockito.ai/download/cli/0.0.1-beta.18/dockito-darwin-x64.tar.gz"
-      sha256 "4884c99e812d951ba1d11199d68070d1388bbe0e10e3a613c749b713ab9fcb37"
+      url "https://dockito.ai/download/cli/0.0.1-beta.19/dockito-darwin-x64.tar.gz"
+      sha256 "e1f618499972fcd9247bd17460a0a72792b50bbfd85788144f346ef59aca7449"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dockito.ai/download/cli/0.0.1-beta.18/dockito-linux-arm64.tar.gz"
-      sha256 "e4268c6577a66285719a0348deca0015bb9c6034296bf953d1115c7cd7471e3c"
+      url "https://dockito.ai/download/cli/0.0.1-beta.19/dockito-linux-arm64.tar.gz"
+      sha256 "8515aebca9c827116ce584078ecd697f755cf292dcf5094894a4fe0e81d6152e"
     end
     on_intel do
-      url "https://dockito.ai/download/cli/0.0.1-beta.18/dockito-linux-x64.tar.gz"
-      sha256 "3e604cf9cf4cd5371dffcdfaabacef97ade57616ad31910bcea66bd64b863c7d"
+      url "https://dockito.ai/download/cli/0.0.1-beta.19/dockito-linux-x64.tar.gz"
+      sha256 "6bb2b138f0aa47eef278be64c19f040fe196df9b6564abce5d34e344c438f09e"
     end
   end
 

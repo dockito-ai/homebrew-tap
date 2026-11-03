@@ -2,28 +2,28 @@
 class Dockito < Formula
   desc "Publish and share docs and sheets with Dockito from the terminal"
   homepage "https://dockito.ai"
-  version "0.0.1-beta.28"
+  version "0.0.1-beta.29"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.28/dockito-darwin-arm64.tar.gz"
-      sha256 "331e226e474668e8a1ea60e683daa568fa83f355992cd7d09075ce62ce8183ec"
+      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.29/dockito-darwin-arm64.tar.gz"
+      sha256 "53f37320440d7670f3ccebb676de2ee725f55ea78b7d103ff60f423011124fbd"
     end
     on_intel do
-      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.28/dockito-darwin-x64.tar.gz"
-      sha256 "0e4c63e49cd3e7db1e2da9d81a94faa98958e4947495493bea294e09ebffbd10"
+      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.29/dockito-darwin-x64.tar.gz"
+      sha256 "eb8aa0925a9d4344d7585e70b425f97e21b79eafe9da09197a02f2f30493a8f4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.28/dockito-linux-arm64.tar.gz"
-      sha256 "d6296ceee392f885fba7e17f0baa17c6204642304be6ad306c8ca15477865a22"
+      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.29/dockito-linux-arm64.tar.gz"
+      sha256 "9eed6a6a4f3566c89905da9bef3e6b3214bcedb821f3337b73732b40b1a9fc18"
     end
     on_intel do
-      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.28/dockito-linux-x64.tar.gz"
-      sha256 "7592b1840316b04f152d233d26b2b4e9f9a561da946f85e77265520bd653aadb"
+      url "https://github.com/dockito-ai/homebrew-tap/releases/download/v0.0.1-beta.29/dockito-linux-x64.tar.gz"
+      sha256 "041aa623d64af2da8e5c534187403fdab57eff0e4ca2fd5d051b5eefeeb3fe4f"
     end
   end
 
